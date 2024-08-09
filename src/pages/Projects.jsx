@@ -2,6 +2,7 @@ import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
 import RoundedButton from "../components/roundedButton/RoundedButton";
+import {foodImg, movieImg} from '../index'
 
 const Projects = () => {
   return (
@@ -10,7 +11,7 @@ const Projects = () => {
         <Link
           heading="MovieApp"
           subheading="I have implemented here searching,  pagination, sorting, infinite scrolling, lazy loading, single movie page design and many more(React + Redux + SASS)"
-          imgSrc="../../src/assets/images/movie.webp"
+          imgSrc = {`${movieImg}`}
           href="https://movieeworld.netlify.app/"
           href2="https://github.com/devKongkon/movie-world"
           button="Code"
@@ -18,7 +19,7 @@ const Projects = () => {
         <Link
           heading="Food App"
           subheading="I have implemented here searching, sorting, pagination, single product page design, related product section, add to cart method and many more(React + Redux + Tailwind CSS)."
-          imgSrc="../assets/images/food.webp"
+          imgSrc={`${foodImg}`}
           href="https://pizza-burger-shop.netlify.app/"
           href2="https://github.com/devKongkon/food-ordering-app"
           button="Code"
