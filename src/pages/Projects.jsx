@@ -18,7 +18,7 @@ const Projects = () => {
         <Link
           heading="Food App"
           subheading="I have implemented here searching, sorting, pagination, single product page design, related product section, add to cart method and many more(React + Redux + Tailwind CSS)."
-          imgSrc="../../src/assets/images/food.webp"
+          imgSrc="../assets/images/food.webp"
           href="https://pizza-burger-shop.netlify.app/"
           href2="https://github.com/devKongkon/food-ordering-app"
           button="Code"

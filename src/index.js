@@ -13,10 +13,9 @@ import MovieApp from "./components/project/MovieApp";
 import FoodApp from "./components/project/FoodApp";
 import Skills from "./components/skills/Skills";
 import Chat from "./components/chat/Chat";
-import heroBg from "../src/assets/images/hero-bg.png"
 
 export {
-    heroBg,
+
     Chat,
     Skills,
     foodImg,

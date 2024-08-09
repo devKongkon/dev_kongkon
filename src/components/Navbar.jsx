@@ -1,12 +1,8 @@
 import { useEffect, useState } from "react";
 import Hamburger from "hamburger-react";
-
-import { heroBg, ThemeBtn } from "../index";
 import { HashLink as Link } from "react-router-hash-link";
-import GradientWrapper from "../GradientWrapper";
 import MenuLink from "./MenuLink";
 import LogoBubble from "./logoBubble/LogoBubble";
-
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,7 +42,7 @@ function Navbar() {
     <>
 
       <header
-        className={`bg-gray-900 header ${show} py-4  md:py-8 dark:bg-slate-700 dark:text-white z-40 bg-cover bg-center shadow-2xl`} /* style={{ backgroundImage: `url(${heroBg})` } } */
+        className={`bg-gray-900 header ${show} py-4  md:py-8 dark:bg-slate-700 dark:text-white z-40 bg-cover bg-center shadow-2xl`}
       >
         <nav className={`max-w-7xl px-4 mx-auto items-center`}>
           <div className="flex justify-between items-center font-normal text-black">
